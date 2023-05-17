@@ -1,3 +1,7 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -7,7 +11,6 @@ body {
 
 #navbar {
     margin: 0;
-    /* display: flex; */
     padding: 10px 100px;
     background-color: #1F2937;
 }
@@ -23,7 +26,6 @@ body {
     list-style-type: none;
     display: flex;
     align-items: center;
-    /* gap: 50px; */
 }
 
 #navbar > ul > li {
@@ -41,5 +43,43 @@ body {
 .navlinks {
     text-decoration: none;
     color: white;
-    font-family:'Courier New', Courier;
+}
+
+.hero {
+    padding: 125px;
+    padding-top: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    background-color: #1F2937;
+    color: white;
+}
+
+header {
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+header > h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header > p {
+    margin: 0;
+    margin-bottom: auto;
+}
+
+.button {
+    align-self: flex-start;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3288F6;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
 }
