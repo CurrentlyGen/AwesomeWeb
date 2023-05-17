@@ -55,6 +55,10 @@ body {
     color: white;
 }
 
+#yacht {
+    border: 1px solid white;
+}
+
 header {
     height: 248px;
     display: flex;
