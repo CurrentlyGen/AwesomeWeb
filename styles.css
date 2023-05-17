@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar {
+    margin: 0;
+    /* display: flex; */
+    padding: 10px 100px;
+    background-color: #1F2937;
+}
+
+#logo {
+    height: auto;
+    width: 60px;
+}
+
+#navbar > ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    /* gap: 50px; */
+}
+
+#navbar > ul > li {
+    padding: 0 25px;
+}
+
+.navi1 {
+    margin-right: auto;
+}
+
+.navi2, .navi3 {
+    border-right: 1px solid white;
+}
+
+.navlinks {
+    text-decoration: none;
+    color: white;
+    font-family:'Courier New', Courier;
+}
