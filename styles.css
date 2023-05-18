@@ -113,7 +113,7 @@ header > p {
     height: auto;
     width: 170px;
     border-radius: 15px;
-    border: 4px #1F2937 solid;
+    border: 4px #3288F6 solid;
 }
 
 #quote {
@@ -133,4 +133,43 @@ header > p {
 #quote > h3 {
     margin: 0;
     align-self: flex-end;
+}
+
+#signup {
+    padding: 75px 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#signup-container {
+    background-color: #3288F6;
+    border-radius: 10px;
+    padding: 50px 95px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+#signup-container > div > h3 {
+    margin: 0;
+    color: white;
+}
+
+#signup-container > div > p {
+    margin: 0;
+    font-size: 13px;
+    color: white;
+}
+
+#signup-container > button {
+    padding: 7px 30px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: #3288F6;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
 }
