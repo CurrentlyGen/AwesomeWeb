@@ -96,7 +96,8 @@ header > p {
 }
 
 #container {
-    padding: 70px 170px;
+    padding: 70px 210px;
+    padding-bottom: 140px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -110,7 +111,26 @@ header > p {
 
 .yacht {
     height: auto;
-    width: 185px;
+    width: 170px;
     border-radius: 15px;
     border: 4px #1F2937 solid;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 60px 210px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote > p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
+}
+
+#quote > h3 {
+    margin: 0;
+    align-self: flex-end;
 }
