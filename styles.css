@@ -13,6 +13,8 @@ body {
     margin: 0;
     padding: 10px 100px;
     background-color: #1F2937;
+    position: sticky;
+    top: 0;
 }
 
 #logo {
@@ -172,4 +174,18 @@ header > p {
     font-size: 17px;
     color: white;
     cursor: pointer;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    margin: 0;
+    font-size: 13px;
 }
